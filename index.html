@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="box">
+    <h2 id="title">Welcome to Quiz</h2>
+
+    <button id="start">Start Quiz</button>
+
+    <div id="quizArea" style="display:none;">
+        <p id="question"></p>
+        <div id="answers"></div>
+        <p>Time Left: <span id="time">10</span></p>
+        <button id="next">Next</button>
+    </div>
+
+    <div id="result" style="display:none;">
+        <h3>Result</h3>
+        <p id="finalScore"></p>
+        <p id="analysis"></p>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>

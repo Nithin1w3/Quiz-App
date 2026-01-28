@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial;
+}
+
+#box {
+    width: 300px;
+    background: white;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+}
